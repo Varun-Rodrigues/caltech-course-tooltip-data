@@ -19,6 +19,29 @@
         "body": [
           [{ "text": "Configure the settings below to customize what information appears in tooltips, such as prerequisites, description, schedule, and instructors." }]
         ]
+      },
+      {
+        "title": "Data Coverage",
+        "body": [
+          [
+            { "text": "This extension's course and schedule data currently covers " },
+            { "dynamic": "currentTerms" },
+            { "text": "." }
+          ]
+        ]
+      },
+      {
+        "title": "Other Useful Resources",
+        "body": [
+          [
+            { "text": "Caltech.dev — a directory of Caltech-related tools and resources: " },
+            { "text": "caltech.dev", "link": "https://caltech.dev" }
+          ],
+          [
+            { "text": "Donut Course Planner — Caltech's course planning tool: " },
+            { "text": "donut.caltech.edu/planner", "link": "https://donut.caltech.edu/planner" }
+          ]
+        ]
       }
     ]
   },
