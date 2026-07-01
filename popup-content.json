@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "userGuide": {
+    "items": [
+      {
+        "title": "Basic Usage",
+        "body": [
+          [{ "text": "Hover highlighted course codes to see a tooltip with course information. Click on the tooltip to pin; press Escape or click elsewhere to unpin." }]
+        ]
+      },
+      {
+        "title": "Course Search",
+        "body": [
+          [{ "text": "Use the Course Lookup above to search for any course by code, title, description keyword, or instructor name." }]
+        ]
+      },
+      {
+        "title": "Customization",
+        "body": [
+          [{ "text": "Configure the settings below to customize what information appears in tooltips, such as prerequisites, description, schedule, and instructors." }]
+        ]
+      }
+    ]
+  },
+  "reportProblem": {
+    "paragraphs": [
+      {
+        "className": "problem-intro",
+        "runs": [
+          { "text": "If you encounter any issues such as " },
+          { "text": "missing courses, courses not being detected, or incorrect information", "emphasis": "em" },
+          { "text": " or you have suggestions for this extension, please contact us Varun Rodrigues at his Caltech email address." }
+        ]
+      },
+      {
+        "className": "problem-intro",
+        "runs": [
+          { "text": "Please include in your email:", "emphasis": "strong" },
+          { "text": " the exact problem description, the course code in exact text format, and the URL where the issue occurred (if applicable)" }
+        ]
+      },
+      {
+        "className": "instructions-text",
+        "runs": [
+          { "text": "To inspect this extension's code or contribute, please visit our GitHub repository " },
+          { "text": "here", "link": "https://github.com/Varun-Rodrigues/Caltech-Course-Tooltip" },
+          { "text": ". Check " },
+          { "text": "README.md", "emphasis": "em" },
+          { "text": " for setup and contribution guidelines." }
+        ]
+      }
+    ]
+  }
+}
