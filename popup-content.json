@@ -45,6 +45,34 @@
       }
     ]
   },
+  "privacy": {
+    "paragraphs": [
+      {
+        "className": "problem-intro",
+        "runs": [
+          { "text": "All course, schedule, and instructor data shown in this extension — in tooltips, the Course Lookup search, and course detail views — comes from Caltech's " },
+          { "text": "public", "emphasis": "strong" },
+          { "text": " course catalog and public schedule pages, and requires no login to view." }
+        ]
+      },
+      {
+        "className": "problem-intro",
+        "runs": [
+          { "text": "TQFR (Teaching Quality Feedback Report) survey results are Caltech-internal and are never scraped, stored, or displayed by this extension. When a professor's course list includes a “TQFR” link, that link only points to the official " },
+          { "text": "access.caltech.edu", "emphasis": "em" },
+          { "text": " report page — clicking it will prompt you to log in with your Caltech credentials, and only members of the Caltech community who are already permitted to view that survey will be able to see anything there." }
+        ]
+      },
+      {
+        "className": "instructions-text",
+        "runs": [
+          { "text": "This extension itself only ever stores TQFR " },
+          { "text": "links and metadata", "emphasis": "em" },
+          { "text": " (course, term, instructor) needed to build that professor → course list — never ratings, comments, or any other survey content." }
+        ]
+      }
+    ]
+  },
   "reportProblem": {
     "paragraphs": [
       {

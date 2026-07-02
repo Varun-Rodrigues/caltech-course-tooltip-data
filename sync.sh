@@ -22,7 +22,7 @@ if [ ! -d "$MAIN_REPO" ]; then
   exit 1
 fi
 
-for f in catalog.json course-codes.json popup-content.json; do
+for f in catalog.json course-codes.json popup-content.json instructor-courses.json; do
   src="$MAIN_REPO/extension/data/$f"
   if [ ! -f "$src" ]; then
     echo "Missing $src — skipping $f." >&2
